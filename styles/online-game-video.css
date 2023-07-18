@@ -1,0 +1,44 @@
+.ogv-txt{
+    text-align: center;
+    margin-top: 100px;
+}
+.ogv-tit{
+    font-size: 2.2rem;
+    font-weight: 800;
+    margin-bottom: 12px;
+}
+
+.funny{
+    font-size: 2.2rem;
+}
+.ogv-desc{
+    color: #534C64;
+    margin-bottom: 40px;
+}
+#card-3{
+    border-radius: 16px;
+}
+
+.card-desc{
+    margin-right: 0;
+    width: 100%;
+    margin-top: 10px;
+    color: #534c64a5;
+    font-size: 0.92rem;
+    font-weight: 600;
+    line-height: 25px;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+}
+.card img{
+    width: 100%;
+}
+.ogv-img{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 15px;
+    width: 73%;
+    margin: 0 auto;
+}
