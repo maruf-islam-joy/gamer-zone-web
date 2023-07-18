@@ -62,17 +62,24 @@ nav{
      nav{
          flex-direction: column;
          align-items: center;
-         gap: 60px;
+         gap: 30px;
          box-shadow: none;
      }
      .logo{
          padding-top: 50px;
      }
+     .logo img{
+        width: 50px;
+    }
+    .logo-tit{
+        font-size: 1.3rem;
+        font-weight: 799
+    }
      .menus{
          flex-direction: column;
      }
      .sep-menu, .menu-last{
-         font-size: 0.85rem;
+         font-size: 0.54rem;
          font-weight: 600;
      }
  
