@@ -42,3 +42,40 @@
     width: 73%;
     margin: 0 auto;
 }
+
+/* Mobile device  */
+@media screen and (max-width:560px) {
+    .ogv-txt{
+        text-align: center;
+        margin-top: 40px;
+    }
+    .ogv-tit{
+        font-size: 1.3rem;
+        font-weight: 800;
+        margin-bottom: 8px;
+    }
+    
+    .funny{
+        font-size: 1.3rem;
+    }
+    .ogv-desc{
+        color: #534c64ae;
+        margin-bottom: 40px;
+        font-weight: 400;
+        font-size: .68rem;
+    }
+
+    .ogv-img{
+        grid-template-columns: repeat(1,1fr);
+        width: 60%;
+    }
+    .card-desc{
+        margin-right: 0;
+        width: 100%;
+        margin-top: 10px;
+        color: #534c64a5;
+        font-size: 0.57rem;
+        font-weight: 600;
+        text-align: center;
+    }
+}
