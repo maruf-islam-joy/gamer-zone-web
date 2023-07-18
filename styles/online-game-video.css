@@ -79,3 +79,42 @@
         text-align: center;
     }
 }
+
+/* Tablet Device  */
+
+@media screen and (min-width:576.01px) and (max-width:960px) {
+    .ogv-txt{
+        text-align: center;
+        margin-top: 40px;
+    }
+    .ogv-tit{
+        font-size: 1.7rem;
+        font-weight: 800;
+        margin-bottom: 8px;
+    }
+    
+    .funny{
+        font-size: 1.7rem;
+    }
+    .ogv-desc{
+        color: #534c64ae;
+        margin-bottom: 40px;
+        font-weight: 400;
+        font-size: .80rem;
+    }
+
+    .ogv-img{
+        grid-template-columns: repeat(2,1fr);
+        width: 60%;
+    }
+    .card-desc{
+        margin-right: 0;
+        width: 100%;
+        margin-top: 10px;
+        color: #534c64a5;
+        font-size: 0.67rem;
+        font-weight: 600;
+        text-align: center;
+    }
+    
+}
