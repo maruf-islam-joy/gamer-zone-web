@@ -1,47 +1,148 @@
-.banner{
+.banner {
     display: flex;
     gap: 50px;
-    
-    
+
+
 }
-.ban-txt{
+
+.ban-txt {
     width: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
-    
+
     background-image: url('../images/ban-txt-bg.png');
     background-size: cover;
 }
 
-.ban-img{
-    
+
+.ban-img {
+
     width: 50%;
-    
+
 }
-.ban-img img{
+
+.ban-img img {
     display: block;
     width: 80%;
     max-height: 100%;
-    
+
 }
-.goat{
-    background-image: linear-gradient(to bottom,#F948B2, #8758F1 );
+
+.goat {
+    background-image: linear-gradient(to bottom, #F948B2, #8758F1);
     color: transparent;
-    -webkit-background-clip:text;
+    -webkit-background-clip: text;
     font-size: 5rem;
     font-weight: 800;
     margin-bottom: 17px;
 }
-.ban-tit{
+
+.ban-tit {
     color: #0B0223;
     font-size: 2.7rem;
     padding-left: 10px;
 }
-.ban-list{
+
+.ban-list {
     display: flex;
     align-items: center;
     gap: 10px;
     margin-bottom: 10px;
     color: #534C64;
 }
+.btn-1 , .btn-2{
+    padding: 10px 20px;
+    border: none;
+    color: white;
+    border-radius: 48px;
+    font-weight: bold;
+}
+.btn-1{
+    background-image: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+    margin-right: 5px;
+}
+.btn-2{
+    background-color: #4EC5F7;
+}
+
+
+
+
+
+/* Mobile device  */
+@media screen and (max-width:576px) {
+    .banner {
+        flex-direction: column-reverse;
+
+        align-items: center;
+    }
+
+    .ban-img {
+        width: 70%;
+
+    }
+
+    .ban-txt {
+
+        width: 80%;
+        margin: 0 30px;
+        height: auto;
+        background-repeat: no-repeat;
+        background-size:contain;
+        padding: 50px;
+        padding-left: 35px;
+        align-items: normal;
+        
+        
+
+
+    }
+
+    .ban-img img {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .goat {
+        
+        font-size: 2rem;
+        margin-bottom: 8px;
+    }
+
+    .ban-tit {
+        /* color: #0B0223;
+        font-size: 2.7rem;*/
+        font-size: 1.1rem;
+        padding-left: 5px;
+    }
+
+    .ban-list {
+        font-size: .65rem;
+        
+        
+    }
+    .ban-list img{
+        width: 15px;
+    }
+    .ban-txt-elem{
+        
+    }
+    .btn-1 , .btn-2{
+        padding: 10px 20px;
+        border: none;
+        color: white;
+        border-radius: 48px;
+        font-weight: bold;
+        font-size: 0.5rem;
+    }
+    
+
+
+}
+
+
+
+/* Tablet device  */
+
+@media screen and (min-width:576.01px) and (max-width:960px) {}
