@@ -44,12 +44,12 @@ nav{
     align-items: center;
     gap: 20px;
     background-color: rgba(11, 2, 35, 0.10);
-    padding: 10px;
+    padding: 10px 15px;
     border-radius: 8px;
 
 }
 .sep-menu, .menu-last{
-    font-size: 15px;
+    font-size: 1rem;
     font-weight: 600;
 }
 
