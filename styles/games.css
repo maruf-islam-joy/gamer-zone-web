@@ -20,10 +20,10 @@
     cursor: pointer;
 }
 .games-card img{
-    width: 54px;
+    width: 60px;
 }
 .game-name{
-    font-size: 0.94rem;
+    font-size: 1.20rem;
     color: #0B0223;
     font-weight: 600;
 }
