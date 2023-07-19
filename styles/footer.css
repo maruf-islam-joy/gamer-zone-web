@@ -60,3 +60,51 @@ footer{
     color: transparent;
     -webkit-background-clip: text;
 }
+
+
+
+
+/* Mobile device  */
+@media screen and (max-width:576px) {
+    footer{
+        padding-top: 40px;
+        padding-bottom: 100px;
+    }
+    .foot-logo img{
+        width: 60px;
+    }
+    .foot-logo-tit{
+        font-size:2rem;
+        font-weight: 799
+    }
+
+    .menus-foot , .footer-icons{
+        
+        display: grid;
+        grid-template-columns: repeat(3,auto);
+        justify-content: center;
+        place-items: center;
+        gap: 30px;
+    }
+    .menus-foot-2{
+        display: grid;
+        grid-template-columns: repeat(2,auto);
+        justify-content: center;
+        place-items: center;
+        gap: 18px;
+    }
+    
+
+    .menus-foot a{
+        font-size: 0.65rem;
+        text-decoration: none;
+        color: white;
+    }
+}
+
+/* Tablet device  */
+/* Mobile device  */
+@media screen and (min-width:576px) and (max-width:960px){
+   
+    
+}
