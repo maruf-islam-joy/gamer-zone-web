@@ -1,11 +1,11 @@
-.instant-play{
+.instant-play {
     margin-top: 100px;
     display: flex;
 
     gap: 100px;
 }
 
-.inst-play-txt{
+.inst-play-txt {
     display: flex;
     flex-direction: column;
     align-items: end;
@@ -15,14 +15,16 @@
     padding-top: 200px;
     padding-right: 100px;
 }
-.inst-tit{
+
+.inst-tit {
     text-align: right;
     width: 100%;
     font-size: 3rem;
     margin-bottom: 25px;
     font-weight: 800;
 }
-.inst-desc{
+
+.inst-desc {
     text-align: right;
     width: 300px;
     color: #534c64c5;
@@ -30,20 +32,86 @@
     font-weight: 400;
     font-size: 0.95rem;
 }
-.play{
-    background-image: linear-gradient(270deg, #ff0099 60%, #8758F1 80%);;
+
+.play {
+    background-image: linear-gradient(270deg, #ff0099 60%, #8758F1 80%);
+    ;
     color: transparent;
     -webkit-background-clip: text;
 }
 
 
-.small{
+.small {
     position: relative;
     bottom: 28%;
     left: -15%;
     width: 270px;
-    
+
 }
-.large{
+
+.large {
     width: 72%;
+}
+
+
+
+
+
+
+
+
+
+/* Mobile device  */
+@media screen and (max-width:576px) {
+
+    .instant-play {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .inst-play-txt {
+        display: block;
+        text-align: center;
+        width: 100%;
+        height: auto;
+        padding: 0;
+    }
+    
+    .inst-tit {
+        text-align: center;
+        width: 100%;
+        margin: 0 auto;
+        font-size: 1.85rem;
+        margin-bottom: 45px;
+        text-shadow: 0 2px 7px rgba(0, 0, 0, 0.419);
+    }
+    
+    .inst-desc {
+        text-align: center;
+        width:74%;
+        margin: 0 auto;
+        font-size: .85rem;
+        text-shadow: 0 1px 3px rgba(0, 0, 0, 0.419);
+    }
+    .inst-play-img{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .small {
+        position: relative;
+        bottom: 110px;
+        left: -110px;
+        width: 120px;
+    
+    }
+    
+    .large {
+        width:60%;
+        
+    }
+
 }
