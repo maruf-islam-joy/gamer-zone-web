@@ -1,0 +1,49 @@
+.instant-play{
+    margin-top: 100px;
+    display: flex;
+
+    gap: 100px;
+}
+
+.inst-play-txt{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    text-align: center;
+    width: 50%;
+    height: 500px;
+    padding-top: 200px;
+    padding-right: 100px;
+}
+.inst-tit{
+    text-align: right;
+    width: 100%;
+    font-size: 3rem;
+    margin-bottom: 25px;
+    font-weight: 800;
+}
+.inst-desc{
+    text-align: right;
+    width: 300px;
+    color: #534c64c5;
+    line-height: 26px;
+    font-weight: 400;
+    font-size: 0.95rem;
+}
+.play{
+    background-image: linear-gradient(270deg, #ff0099 60%, #8758F1 80%);;
+    color: transparent;
+    -webkit-background-clip: text;
+}
+
+
+.small{
+    position: relative;
+    bottom: 28%;
+    left: -15%;
+    width: 270px;
+    
+}
+.large{
+    width: 72%;
+}
