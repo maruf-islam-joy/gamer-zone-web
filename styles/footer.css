@@ -1,0 +1,62 @@
+footer{
+    padding-top: 120px;
+    background-color: #0B0223;
+    padding-bottom: 120px;
+}
+.logo-men-foot{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    gap: 25px;
+}
+.menus-foot a{
+    margin-right: 35px;
+    text-decoration: none;
+    color: white;
+}
+.footer-lg{
+    color: white;
+}
+
+.footer-icons{
+    margin-top: 35px;
+    text-align: center;
+}
+.footer-icons img{
+    
+    margin-right: 25px;
+    
+}
+.facebook{
+    width: 30px;
+}
+.youtube{
+    width: 44px;
+}
+
+.menus-foot-2{
+    text-align: center;
+    margin-top: 35px;
+}
+.menus-foot-2 a{
+    margin-right: 35px;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.495);
+    font-size: 0.85rem;
+    font-weight: 500;
+    
+}
+
+.copy-txt{
+    margin-top: 30px;
+    color: rgba(255, 255, 255, 0.495);
+    text-align: center;
+    font-size: 0.85rem;
+    font-weight: 500;
+}
+.name{
+    background-image: linear-gradient(270deg, #ff0099 60%, #8758F1 80%);
+    color: transparent;
+    -webkit-background-clip: text;
+}
