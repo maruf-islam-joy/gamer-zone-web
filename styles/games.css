@@ -1,0 +1,35 @@
+.games{
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.games-card{
+    width: auto;
+    background-color: white;
+    border: none;
+    border-radius: 50px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    padding: 10px;
+}
+.games-card img{
+    width: 54px;
+}
+.game-name{
+    font-size: 0.94rem;
+    color: #0B0223;
+    font-weight: 600;
+}
+.game-name:hover{
+    color: #FF42A5;
+} 
+.games-card:hover{
+    
+    border: 1px solid #FF42A5;
+}
