@@ -65,6 +65,10 @@ nav{
          gap: 30px;
          box-shadow: none;
      }
+     .menus{
+        gap: 15px;
+        
+    }
      .logo{
          padding-top: 50px;
      }
@@ -81,6 +85,9 @@ nav{
      .sep-menu, .menu-last{
          font-size: 0.54rem;
          font-weight: 600;
+     }
+     .menu-last{
+        margin-top: 15px;
      }
  
      /* Navbar responsive section end   */
