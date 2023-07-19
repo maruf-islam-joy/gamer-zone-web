@@ -127,6 +127,10 @@ footer{
         margin-right: 0px;
         font-size: 0.55rem;
     }
+    .copy{
+        width: 210px;
+        margin: 0 auto;
+    }
 }
 
 /* Tablet device  */
